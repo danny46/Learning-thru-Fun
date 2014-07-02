@@ -1,0 +1,63 @@
+.clear{
+	clear: both;
+}
+#contents{
+	padding: 0 25%;
+}
+li{
+	width:50px;
+	float: left;
+	background-color: black;
+	border: 1px solid white;
+	height: 50px;
+	padding: 1px;
+}
+ul{
+	clear: both;
+}
+p{
+	color: white;
+	height: 20px;
+	display: inline-block;
+	visibility: hidden;
+}
+img{
+	visibility: hidden;
+	height: 100%;
+	display: inline;
+	width: 100%;
+}
+h1{
+	
+	font-size: 2em;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.buttons{
+	float: left;
+	
+}
+li:hover{
+	cursor: pointer;
+}
+h2,h3,h4{
+	 display: block;
+	 font-size: 1.5em;
+	 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	 margin: 35px 0 10px 0;
+
+}
+h3{
+	 color: red;
+
+}
+h4{
+	color: green;
+}
+#text{
+	visibility: visible;
+	color: black;
+	line-height: 20px;
+}
+.blast{
+	visibility: visible;
+}
